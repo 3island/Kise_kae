@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(120, 117, 117);
+  margin: auto;
+}
+
+p {
+  color: white;
+}
+
+legend {
+  color: white;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 3px 30px;
+  margin-top: 30px;
+  box-shadow: 0 7px rgb(52, 50, 50);
+}
+
+button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
